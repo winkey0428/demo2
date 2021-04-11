@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hello {
     @RequestMapping("world")
     public String hello_world(){
-        return  "hello_world12333";
+        //远程更改
+        return  "hello_world123332";
     }
 }
